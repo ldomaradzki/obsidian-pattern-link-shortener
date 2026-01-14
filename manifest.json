@@ -1,0 +1,10 @@
+{
+	"id": "pattern-link-shortener",
+	"name": "Pattern Link Shortener",
+	"version": "1.0.0",
+	"minAppVersion": "1.6.0",
+	"description": "Automatically shortens pasted links using configurable regex patterns. Supports JIRA, Confluence, GitLab, GitHub, and custom services.",
+	"author": "Ruslans Platonovs",
+	"authorUrl": "https://github.com/rplatonovs",
+	"isDesktopOnly": false
+}

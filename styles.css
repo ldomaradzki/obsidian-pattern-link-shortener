@@ -1,0 +1,102 @@
+/* Pattern Link Shortener - Settings Styles */
+
+.pattern-link-shortener-settings .pattern-list {
+    margin-top: 1em;
+}
+
+.pattern-link-shortener-settings .pattern-item {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+}
+
+.pattern-link-shortener-settings .pattern-item .setting-item-info {
+    flex-grow: 1;
+}
+
+.pattern-link-shortener-settings .pattern-empty-state {
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Pattern Edit Modal */
+.pattern-edit-modal {
+    padding: 1em;
+}
+
+.pattern-edit-modal h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.pattern-edit-modal .setting-item {
+    border-top: none;
+    padding-top: 0.5em;
+}
+
+.pattern-edit-modal .pattern-textarea {
+    width: 100%;
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+}
+
+.pattern-edit-modal .validation-message {
+    font-size: 0.85em;
+    padding: 4px 0;
+    color: var(--text-success);
+}
+
+.pattern-edit-modal .validation-message.error {
+    color: var(--text-error);
+}
+
+/* Test Section */
+.pattern-edit-modal .pattern-test-section {
+    margin-top: 1.5em;
+    padding: 1em;
+    background: var(--background-secondary);
+    border-radius: 6px;
+}
+
+.pattern-edit-modal .pattern-test-section h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.pattern-edit-modal .pattern-test-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 0.5em;
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+}
+
+.pattern-edit-modal .pattern-test-result {
+    padding: 8px;
+    border-radius: 4px;
+    font-family: var(--font-monospace);
+    font-size: 0.9em;
+    background: var(--background-primary);
+    word-break: break-all;
+}
+
+.pattern-edit-modal .pattern-test-result.success {
+    color: var(--text-success);
+}
+
+.pattern-edit-modal .pattern-test-result.error {
+    color: var(--text-error);
+}
+
+/* Modal Buttons */
+.pattern-edit-modal .modal-button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 1.5em;
+    padding-top: 1em;
+    border-top: 1px solid var(--background-modifier-border);
+}
